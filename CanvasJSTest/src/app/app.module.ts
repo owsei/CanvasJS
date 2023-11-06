@@ -4,10 +4,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
+import { DygraphsComponent } from './dygraphs/dygraphs.component';
+import { CanvasJsComponent } from './canvas-js/canvas-js.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DygraphsComponent,
+    CanvasJsComponent
   ],
   imports: [
     BrowserModule,
